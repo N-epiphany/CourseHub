@@ -37,8 +37,11 @@ The project is organized with a clear structure, including components for the co
 ## How to Run
 
 1.  Clone the repository to your local machine.
+
     `git clone https://github.com/N-epiphany/CourseHub.git`
+
     `cd coursehub`
+
 2.  Install dependencies.
 
     `npm install`
@@ -51,4 +54,4 @@ The project is organized with a clear structure, including components for the co
 
 ## Demo Video
 
-[Link to Demo Video](https://chat.openai.com/c/70cb9b2d-8218-4dce-8860-c1d265f3c942#) <!-- Include a link to your demo video on a platform like YouTube or Vimeo. -->
+[Link to Demo Video]()
