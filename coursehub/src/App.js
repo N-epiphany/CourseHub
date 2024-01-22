@@ -1,17 +1,21 @@
 import "./App.css";
 import React from "react";
-import Header from "./components/common/heading/Header";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import Header from "./components/common/header/Header";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
+import CourseHome from "./components/allcourses/CourseHome";
+
 const App = () => {
   return (
     <>
       <Router>
         <Header />
         <Switch>
-          <Route path="/" component={Home} />
-          <Route path="/about" component={About} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/courses" component={CourseHome} />
         </Switch>
       </Router>
     </>

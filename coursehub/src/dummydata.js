@@ -130,7 +130,7 @@ export const coursesCard = [
   },
   {
     id: 7,
-    cover: "../images/courses/c7.png",
+    cover: "https://picsum.photos/seed/picsum/200/300",
     coursesName: "Introducing to with HTML / CSS",
     courTeacher: [
       {
