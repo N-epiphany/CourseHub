@@ -52,6 +52,6 @@ The project is organized with a clear structure, including components for the co
 
 4.  Open your browser and navigate to `http://localhost:3000` to view the application.
 
-## Demo Video
-
+## Demo 
+  <img src="https://github.com/N-epiphany/CourseHub/blob/main/coursehub/public/images/demo.png" alt="Welcome Image" >
 [Link to Demo Video]()
