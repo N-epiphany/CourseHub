@@ -54,4 +54,4 @@ The project is organized with a clear structure, including components for the co
 
 ## Demo 
   <img src="https://github.com/N-epiphany/CourseHub/blob/main/coursehub/public/images/demo.png" alt="Welcome Image" >
-[Link to Demo Video]()
+
