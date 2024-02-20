@@ -85,7 +85,7 @@ p {
   font-size: 18px;
 }
 .back {
-  background-image: url("../public/images/aboutbg.jpg");
+  background-image: url("../public/images/otherbg.jpg");
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -97,10 +97,10 @@ p {
   padding-top: 20%;
   padding-right: 50px;
   color: black;
-  text-align: center;
+  text-align: right;
 }
 .back h1 {
-  font-size: 100px;
+  font-size: 60px;
   font-weight: 400;
 }
 .back h2 {
@@ -137,12 +137,12 @@ p {
 .outline-btn {
   margin: 0;
   box-shadow: none;
-  border: 2px solid #1eb2a6;
+  border: 2px solid #e25615;
   width: 100%;
   transition: 0.5s;
 }
 .outline-btn:hover {
-  background-color: #1eb2a6;
+  background-color: #e25615;
   color: #fff;
 }
 .grid3 {

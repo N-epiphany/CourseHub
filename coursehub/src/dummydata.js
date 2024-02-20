@@ -1,32 +1,35 @@
+// ===============home tab==============
 export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
     title: "Online Courses",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "Explore diverse online courses for personalized learning experiences at your convenience.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
     title: "Earn A Certificates",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "Validate skills, advance careers with accredited certificates, and unlock new opportunities.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
     title: "Learn with Expert",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "Gain insights, guidance from industry professionals for enriched learning journeys.",
   },
 ];
+
+// ===============courses tab==============
 export const coursesCard = [
   {
     id: 1,
-    cover: "",
+    cover: "../images/courses/c1.png",
     coursesName: "Introducing to Software Engineering",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by John Smith",
+        dcover: "../images/profile/t1.jpg",
+        name: "by Dr. Adrian Molises",
         totalTime: "50 lectures (190 hrs)",
       },
     ],
@@ -39,8 +42,8 @@ export const coursesCard = [
     coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Ram Gurung",
+        dcover: "../images/profile/t2.jpg",
+        name: "Dr. Anna Hanzen",
         totalTime: "30 lectures (125 hrs)",
       },
     ],
@@ -53,8 +56,8 @@ export const coursesCard = [
     coursesName: "HTML, CSS, and Javascript for Web Developers",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Saroj Nepal",
+        dcover: "../images/profile/t3.jpg",
+        name: "Dr. Brian Wooden",
         totalTime: "50 lectures (50 hrs)",
       },
     ],
@@ -67,8 +70,8 @@ export const coursesCard = [
     coursesName: "Introducing to Programming with WordPress",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Prabin Thapa Mager",
+        dcover: "../images/profile/t4.jpg",
+        name: "Dr. Elena Kowalski",
         totalTime: "20 lectures (20 hrs)",
       },
     ],
@@ -81,8 +84,8 @@ export const coursesCard = [
     coursesName: "Introducing to Programming with ReactJS",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
+        dcover: "../images/profile/t5.jpg",
+        name: "Dr. Sophia Jackson",
         totalTime: "100 lectures (150 hrs)",
       },
     ],
@@ -95,8 +98,8 @@ export const coursesCard = [
     coursesName: "Learn Frontend Programming Language",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
+        dcover: "../images/profile/t6.jpg",
+        name: "Dr. Isabella Martinez",
         totalTime: "200 lectures (300 hrs)",
       },
     ],
@@ -105,12 +108,12 @@ export const coursesCard = [
   },
   {
     id: 7,
-    cover: "https://picsum.photos/seed/picsum/200/300",
+    cover: "../images/courses/c7.png",
     coursesName: "Introducing to with HTML / CSS",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Price",
+        dcover: "../images/profile/t7.jpg",
+        name: "Dr. Chloe Adams",
         totalTime: "20 lectures (50 hrs)",
       },
     ],
@@ -123,8 +126,8 @@ export const coursesCard = [
     coursesName: "Introducing to with JAVA",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Petter",
+        dcover: "../images/profile/t8.jpg",
+        name: "by Vivek Mishra",
         totalTime: "80 lectures (200 hrs)",
       },
     ],
@@ -137,8 +140,8 @@ export const coursesCard = [
     coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Petter",
+        dcover: "../images/profile/t9.jpg",
+        name: "by Dr. Molly MaGregor",
         totalTime: "50 lectures (50 hrs)",
       },
     ],
@@ -220,48 +223,52 @@ export const online = [
     course: "17 Courses",
   },
 ];
+
+// ===============Team tab==============
+
 export const team = [
   {
-    cover: "./images/team/t1.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/profile/t1.jpg",
+    name: "Dr. Adrian Molises",
+    work: "SOFTWARE ENGINEER AND CURRICULUM DEVELOPER",
   },
   {
-    cover: "./images/team/t2.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/profile/t9.jpg",
+    name: "Dr. Molly MaGregor",
+    work: "GRAPHICS DESIGNER AND UX SPECIALIST",
   },
   {
-    cover: "./images/team/t3.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/profile/t2.jpg",
+    name: "Dr. Anna Hanzen",
+    work: "CONTENT STRATEGIST AND COURSE INSTRUCTOR",
   },
   {
-    cover: "./images/team/t4.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/profile/t3.jpg",
+    name: "Dr. Brian Wooden",
+    work: "RESEARCHER AND EDUCATIONAL TECHNOLOGIST",
   },
   {
-    cover: "./images/team/t5.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/profile/t4.jpg",
+    name: "Dr. Elena Kowalski",
+    work: "DATA SCIENTIST AND LEARNING ANALYST",
   },
   {
-    cover: "./images/team/t6.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/profile/t5.jpg",
+    name: "Dr. Sophia Jackson",
+    work: "COMMUNITY MANAGER AND STUDENT ADVISOR",
   },
   {
-    cover: "./images/team/t7.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/profile/t6.jpg",
+    name: "Dr. Isabella Martinez",
+    work: "LANGUAGE SPECIALIST AND CONTENT EDITOR",
   },
   {
-    cover: "./images/team/t8.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/profile/t7.jpg",
+    name: "Dr. Chloe Adams",
+    work: "QUALITY ASSURANCE AND USER TESTING SPECIALIST",
   },
 ];
+
 export const price = [
   {
     name: "BASIC PLAN",
@@ -316,76 +323,77 @@ export const blog = [
     type: "admin",
     date: "JAN. 18, 2021",
     com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b1.webp",
+    title: "Mastering the Art of Software Engineering",
+    desc: "Embark on a journey through the ever-flowing river of knowledge in software engineering and unleash your potential amidst the regal landscapes of technology.",
+    cover: "../images/blog/b1.jpg",
   },
   {
     id: 2,
     type: "admin",
     date: "API. 25, 2022",
     com: "5 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b2.webp",
+    title: "The Future of Software Development: Unveiling the Path Ahead",
+    desc: "Peer into the horizon of software development, where every line of code shapes the landscapes of tomorrow. Dive deep into the currents of innovation and forge the future.",
+    cover: "../images/blog/b2.jpg",
   },
   {
     id: 3,
     type: "user",
     date: "MAY. 15, 2022",
     com: "10 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b3.webp",
+    title: "Navigating the Software Engineering Odyssey: A User's Guide",
+    desc: "Chart your course through the turbulent seas of software engineering with wisdom gleaned from the ancients. Let the currents of experience guide your ship to success.",
+    cover: "../images/blog/b3.jpg",
   },
   {
     id: 4,
     type: "admin",
     date: "JAN. 02, 2022",
     com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b4.webp",
+    title: "Elevating Your Software Craftsmanship: Pursuing Excellence",
+    desc: "Craft your software with the precision and artistry of a master artisan. Explore the depths of craftsmanship and hone your skills amidst the flowing waters of creativity.",
+    cover: "../images/blog/b4.jpg",
   },
   {
     id: 5,
     type: "admin",
     date: "DEC. 14, 2022",
     com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b5.webp",
+    title: "The Renaissance of Software Engineering: Embracing Innovation",
+    desc: "Witness the rebirth of software engineering in the crucible of innovation. Embrace change and let the winds of creativity carry you to new heights of achievement.",
+    cover: "../images/blog/b5.jpg",
   },
   {
     id: 6,
     type: "user",
     date: "JAN. 18, 2021",
     com: "12 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b6.webp",
+    title: "Exploring the Digital Frontier: Adventures in Software Engineering",
+    desc: "Embark on an epic quest through the digital wilderness, where every line of code is a step towards discovery. Uncover hidden treasures amidst the vast expanse of technology.",
+    cover: "../images/blog/b6.jpg",
   },
 ];
+
 export const testimonal = [
   {
     id: 1,
     name: "ROGER SCOTT",
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t1.webp",
+    cover: "./images/testo/t1.jpg",
   },
   {
     id: 2,
     name: "ROGER SCOTT",
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t2.webp",
+    cover: "./images/testo/t2.jpg",
   },
   {
     id: 3,
     name: "ROGER SCOTT",
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t3.webp",
+    cover: "./images/testo/t3.jpg",
   },
 ];
