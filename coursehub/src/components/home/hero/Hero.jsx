@@ -13,10 +13,9 @@ const Hero = () => {
               title="ONLINE EDUCATION & LEARNING"
             />
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
-              voluptatibus tenetur minima ipsum ullam ad aspernatur veritatis
-              ipsam voluptatem, possimus odio, fugit iusto odit, quia ea debitis
-              quaerat magni deleniti.
+              Welcome to CourseHub, your gateway to a world of limitless
+              learning opportunities. Explore online education like never
+              before, where knowledge knows no bounds.
             </p>
             <div className="button">
               <button className="primary-btn">
